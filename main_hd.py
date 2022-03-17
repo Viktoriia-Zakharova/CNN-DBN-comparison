@@ -141,7 +141,7 @@ class Hd_model:
 		################################# Training ###################################################
 		# SVM
 		clf_SVM.fit(svm_train_feat,train_label)
-		SVMpred = clf_SVM.predict(svm_train_feat,train_label
+		SVMpred = clf_SVM.predict(svm_train_feat,train_label)
 		print("SVM Prediction: ", SVMpred)
 
 
